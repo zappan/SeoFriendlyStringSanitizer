@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/zappan/SeoFriendlyStringSanitizer/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/zappan/SeoFriendlyStringSanitizer</projectUrl>
+    <iconUrl>http://netko.hr/pub/zappan/NetkoLogo100.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2011</copyright>
+    <tags>SEO, sanitization, URL sanitization, diacritical fold, util</tags>
+  </metadata>
+</package>
