@@ -15,10 +15,19 @@ The library and provided on an "as is" basis.
 
 The library is available as a [NuGet package](http://nuget.org/List/Packages/Netko.Common.Util.Seo.SeoFriendlyStringSanitizer) or by cloning the GitHub repository and building it directly.
 
+## Usage
+
+```c#
+using Netko.Common.Util.Seo;
+...
+string output = SeoFriendlyStringSanitizer.Sanitize(input);
+```
+
 ## History
 
 * [2011-09-03] v1.0.0: Initial release
 
 ## Resources
+* Getting the library: [NuGet package](http://nuget.org/List/Packages/Netko.Common.Util.Seo.SeoFriendlyStringSanitizer)
 * The Unicode Consortium: [http://www.unicode.org/](http://www.unicode.org/)
 * Origin MSDN Blog Post: [Stripping diacriticals from string?](http://social.msdn.microsoft.com/Forums/en-US/netfxbcl/thread/a33217d3-86e6-4759-a12c-c407969e479f/)
