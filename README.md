@@ -25,6 +25,7 @@ string output = SeoFriendlyStringSanitizer.Sanitize(input);
 
 ## History
 
+* [2011-09-07] v1.0.1: Stripping HTML elements from the input string
 * [2011-09-03] v1.0.0: Initial release
 
 ## Resources

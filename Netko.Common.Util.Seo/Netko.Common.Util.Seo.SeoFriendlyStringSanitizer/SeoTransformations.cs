@@ -19,9 +19,28 @@ namespace Netko.Common.Util.Seo
 
 			StringBuilder sb = new StringBuilder();
 			bool lastCharWasWhitespace = false;
+			bool strippingHtmlMode = false;
 			for (int index = 0; index < normalizedString.Length; index++)
 			{
 				char curChar = normalizedString[index];
+
+				// check if string contains HTML elements, they should be stripped
+				if (curChar == '<')
+				{
+					strippingHtmlMode = true;
+					continue;
+				}
+				else if (curChar == '>')
+				{
+					strippingHtmlMode = false;
+					continue;
+				}
+
+				// if inside HTML element, we're in stripping mode and skipping the current character
+				if (strippingHtmlMode)
+					continue;
+
+				// not inside stripping mode, perform transformations
 				if (Char.IsWhiteSpace(curChar) || curChar == '-')
 				{
 					if (!lastCharWasWhitespace)
