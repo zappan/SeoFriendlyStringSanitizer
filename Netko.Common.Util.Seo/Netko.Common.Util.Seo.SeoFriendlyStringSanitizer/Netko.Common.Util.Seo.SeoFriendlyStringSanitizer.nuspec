@@ -12,6 +12,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <copyright>Copyright 2011</copyright>
-    <tags>SEO, sanitization, URL sanitization, diacritical fold, util</tags>
+    <tags>SEO, sanitization, URL-sanitization, diacritical-fold, util</tags>
   </metadata>
 </package>

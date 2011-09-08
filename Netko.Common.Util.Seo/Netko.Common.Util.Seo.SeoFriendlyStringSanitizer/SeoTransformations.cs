@@ -52,7 +52,8 @@ namespace Netko.Common.Util.Seo
 				}
 
 				if (Char.IsPunctuation(curChar)) continue;
-				if (curChar == '\u00F8') continue;
+				if (curChar == '\u00F8') continue;			// degree signs will be skipped
+				if (curChar == '+') continue;				// '+' signs will be skipped
 
 				sb.Append(curChar);
 				lastCharWasWhitespace = false;

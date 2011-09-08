@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("SEO Friendly String Sanitizer")]
 [assembly: AssemblyDescription("Small library that performs the string conversion into a sanitized version that can be included in the URL")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Netko")]
+[assembly: AssemblyCompany("Tomislav Capan, Netko Ltd.")]
 [assembly: AssemblyProduct("Netko.Common.Util.Seo.SeoFriendlyStringSanitizer.Properties")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2011")]
+[assembly: AssemblyCopyright("Copyright © Tomislav Capan, Netko Ltd. 2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,5 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("1.0.1.0")]
-[assembly: AssemblyFileVersion("1.0.1.0")]
+[assembly: AssemblyVersion("1.0.2.0")]
+[assembly: AssemblyFileVersion("1.0.2.0")]
